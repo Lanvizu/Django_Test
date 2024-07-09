@@ -29,6 +29,8 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+# 허용시킬 host IP
+ALLOWED_HOSTS = ['34.64.150.61', '127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
